@@ -6,7 +6,6 @@ The aim of this tutorial is to bring a more detailed and an easier guide for beg
 All the files were tested on Windows 10 and Python 3.8.1.
 
 Table of Contents:
-1. File reading:
-  a) csv.reader
-  b) csv.DictReader
-  c)
+1. File reading: a) csv.reader, b) csv.DictReader, c) 
+2. File writing:
+3. Appending to file:
