@@ -5,6 +5,8 @@ The aim of this tutorial is to bring a more detailed and an easier guide for beg
 
 Every file starts with step-by-step explanation. In the second part of the file there is a complete code.
 
+I recommend to start with file_reading.py and then file_writing.py. Append_to_file.py is almost identical to file_writing.py.
+
 Setup:
 Windows 10
 Python 3.8.1
