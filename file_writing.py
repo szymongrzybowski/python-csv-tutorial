@@ -14,7 +14,7 @@ with open('path/to/csv/file', 'w', newline='') as csvfile: # remember to use new
     # write a single row
     csv_writer.writerow(['Eric', 'Idle'])
     # write data from list
-    csv_writer.writerow(my_list)
+    csv_writer.writerows(my_list)
     # write many rows
     csv_writer.writerows(
         ['John', 'Cleese'],
@@ -61,7 +61,7 @@ my_list = ['Paul', 'Smith']
 with open('path/to/csv/file', 'w', newline='') as csvfile: 
     csv_writer = csv.writer(csvfile, delimiter=',')
     csv_writer.writerow(['Eric', 'Idle'])
-    csv_writer.writerow(my_list)
+    csv_writer.writerows(my_list)
     csv_writer.writerows(
         ['John', 'Cleese'],
         ['Robert', 'Smith'],
