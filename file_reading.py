@@ -7,7 +7,7 @@ with open('path/to/csv/file', 'r', newline='') as csvfile: # specify a path to t
                                                      # if csvfile is a file object, it should be opened with newline=''. Otherwise, you may face a problem with additional blank lines between two rows
                                                      
     # Here you have to decide whether you want to use standard reader or DictReader which organizes the data from table in a form of dictionary. Let's continue with csv.reader
-    csv_reader = csv.reader(csvfile, delimeter=',') # delimeter= is used to set a separator which will separate data. The most popular one is comma but you can use also colon
+    csv_reader = csv.reader(csvfile, delimiter=',') # delimeter= is used to set a separator which will separate data. The most popular one is comma but you can use also colon
     # the following line divides the table's rows into columns. Example: row[0] = first column
     for row in csv_reader: # for every row in the table 
         print(row) # you can print all rows in the table or...
